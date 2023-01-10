@@ -1,4 +1,4 @@
-class Solution {
+class RomantoInteger {
     public int romanToInt(String s) {
          int ans = 0, num = 0;
         for (int i = s.length()-1; i >= 0; i--) {
